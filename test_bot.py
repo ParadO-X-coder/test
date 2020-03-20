@@ -1,5 +1,7 @@
 import telebot
 import config
+import logging
+import telegram
 
 bot = telebot.TeleBot(config.TOKEN)
 
